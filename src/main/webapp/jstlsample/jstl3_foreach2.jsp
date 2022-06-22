@@ -34,10 +34,11 @@ ${name } <br />
  
 <hr /> 
  
-<%-- items에 el방식으로 name3의 값을 넣어 사용 
+<!-- items에 el방식으로 name3의 값을 넣어 사용  -->
 <c:forEach var="name" items="${name3 }" >
 ${name } <br />
-</c:forEach> --%>
+</c:forEach>
+<hr />
 
 <%-- 
 <c:forEach var="name" items="${name3 }"  varStatus="st">
